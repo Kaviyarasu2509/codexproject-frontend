@@ -1,0 +1,70 @@
+/* General layout */
+.home-container {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+}
+
+.company-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* About section */
+.about-section {
+  max-width: 900px;
+}
+
+/* Project cards */
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Section titles */
+.section-title {
+  font-weight: 700;
+  color: #0d6efd;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
